@@ -26,54 +26,46 @@ _features = Features(
 
 
 train_data = load_dataset('json', data_files='result.json', split="train")#, features=_features)
-print(train_data)
-print(type(train_data))
-temp = train_data[:3]
 #valid_data = load_dataset('json', data_files='valid.json')
 train_data.set_format(
     type="torch", columns=["input_ids", "attention_mask", "decoder_input_ids", "decoder_attention_mask", "labels"],
 )
-print(train_data)
-print(type(train_data))
+batch_size=4  # change to 16 for full training
+encoder_max_length=512
+decoder_max_length=512
 
-print(train_data[:3])
-print('a')
-#batch_size=4  # change to 16 for full training
-#encoder_max_length=512
-#decoder_max_length=512
+bert2bert = EncoderDecoderModel.from_encoder_decoder_pretrained('bert-base-multilingual-cased', 'bert-base-multilingual-cased') # initialize Bert2Bert from pre-trained checkpoints
 
-# bert2bert = EncoderDecoderModel.from_encoder_decoder_pretrained('bert-base-multilingual-cased', 'bert-base-multilingual-cased') # initialize Bert2Bert from pre-trained checkpoints
-#
-# # set special tokens
-# #bert2bert.config.decoder_start_token_id = tokenizer.bos_token_id
-# #bert2bert.config.eos_token_id = tokenizer.eos_token_id
-# #bert2bert.config.pad_token_id = tokenizer.pad_token_id
-#
-# # sensible parameters for beam search
-# #bert2bert.config.vocab_size = bert2bert.config.decoder.vocab_size
-# #bert2bert.config.early_stopping = True
-#
-#
-# # training_args = Seq2SeqTrainingArguments(
-# #     output_dir="./",
-# #     per_device_train_batch_size=batch_size,
-# #     per_device_eval_batch_size=batch_size,
-# #     predict_with_generate=True,
-# #     do_train=True,
-# #     do_eval=True,
-# #     logging_steps=1000,  # set to 1000 for full training
-# #     save_steps=500,  # set to 500 for full training
-# #     eval_steps=8000,  # set to 8000 for full training
-# #     warmup_steps=2000,  # set to 2000 for full training
-# #     overwrite_output_dir=True,
-# # )
-#
-# trainer = Seq2SeqTrainer(
-#     model=bert2bert,
-#     #args=training_args,
-#     #compute_metrics=metric,
-#     train_dataset=train_data,
-#     #eval_dataset=valid_data,
+# set special tokens
+#bert2bert.config.decoder_start_token_id = tokenizer.bos_token_id
+#bert2bert.config.eos_token_id = tokenizer.eos_token_id
+#bert2bert.config.pad_token_id = tokenizer.pad_token_id
+
+# sensible parameters for beam search
+#bert2bert.config.vocab_size = bert2bert.config.decoder.vocab_size
+#bert2bert.config.early_stopping = True
+
+
+# training_args = Seq2SeqTrainingArguments(
+#     output_dir="./",
+#     per_device_train_batch_size=batch_size,
+#     per_device_eval_batch_size=batch_size,
+#     predict_with_generate=True,
+#     do_train=True,
+#     do_eval=True,
+#     logging_steps=1000,  # set to 1000 for full training
+#     save_steps=500,  # set to 500 for full training
+#     eval_steps=8000,  # set to 8000 for full training
+#     warmup_steps=2000,  # set to 2000 for full training
+#     overwrite_output_dir=True,
 # )
-#
-# trainer.train()
+
+trainer = Seq2SeqTrainer(
+    model=bert2bert,
+    #args=training_args,
+    #compute_metrics=metric,
+    train_dataset=train_data,
+    #eval_dataset=valid_data,
+)
+
+trainer.train()

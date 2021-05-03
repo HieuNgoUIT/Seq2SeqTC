@@ -50,8 +50,7 @@ def process_data_to_model_inputs(tokenizer, src_list, trg_list):
 
     # because BERT automatically shifts the labels, the labels correspond exactly to `decoder_input_ids`.
     # We have to make sure that the PAD token is ignored
-    result["labels"] = [[-100 if token == tokenizer.pad_token_id else token for token in labels] for labels in
-                       result["labels"]]
+    result["labels"] = [-100 if token == tokenizer.pad_token_id else token for token in result["labels"]]
     return result
 
 def tokenize_txt_to_csv(path):
@@ -64,9 +63,12 @@ def tokenize_txt_to_csv(path):
     with open(path, 'r') as f:
         for line in f:
             trg.append(line.strip())
-    result = process_data_to_model_inputs(tokenizer, src, trg)
     with open('result.json', 'w') as fp:
-        json.dump(result, fp)
+        for s, t in zip(src,trg):
+            json_object = process_data_to_model_inputs(tokenizer, s, t)
+            temp = str(json_object).replace("\'","\"") + "\n"
+            fp.write(temp)
+
     #pd.DataFrame(result).to_csv("test.csv", index=False)
 
 tokenize_txt_to_csv("temp_text.txt")
