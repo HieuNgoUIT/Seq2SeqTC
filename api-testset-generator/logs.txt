@@ -1,0 +1,401 @@
+
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 526 (12.86%)
+Acronym : 72 (13.69%)
+Teencode : 91 (17.30%)
+Region : 73 (13.88%)
+Telex : 94 (17.87%)
+Fat Finger : 108 (20.53%)
+Edit Distance : 88 (16.73%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 526 (12.86%)
+Acronym : 73 (13.88%)
+Teencode : 108 (20.53%)
+Region : 60 (11.41%)
+Telex : 107 (20.34%)
+Fat Finger : 79 (15.02%)
+Edit Distance : 99 (18.82%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 526 (12.86%)
+Acronym : 68 (12.93%)
+Teencode : 90 (17.11%)
+Region : 75 (14.26%)
+Telex : 101 (19.20%)
+Fat Finger : 89 (16.92%)
+Edit Distance : 103 (19.58%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 526 (12.86%)
+Acronym : 58 (11.03%)
+Teencode : 100 (19.01%)
+Region : 76 (14.45%)
+Telex : 102 (19.39%)
+Fat Finger : 86 (16.35%)
+Edit Distance : 104 (19.77%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 526 (12.86%)
+Acronym : 63 (11.98%)
+Teencode : 103 (19.58%)
+Region : 64 (12.17%)
+Telex : 95 (18.06%)
+Fat Finger : 101 (19.20%)
+Edit Distance : 100 (19.01%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 1147 (28.04%)
+Acronym : 146 (12.73%)
+Teencode : 207 (18.05%)
+Region : 97 ( 8.46%)
+Telex : 221 (19.27%)
+Fat Finger : 220 (19.18%)
+Edit Distance : 256 (22.32%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 1147 (28.04%)
+Acronym : 132 (11.51%)
+Teencode : 213 (18.57%)
+Region : 119 (10.37%)
+Telex : 243 (21.19%)
+Fat Finger : 216 (18.83%)
+Edit Distance : 224 (19.53%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 1147 (28.04%)
+Acronym : 132 (11.51%)
+Teencode : 227 (19.79%)
+Region : 102 ( 8.89%)
+Telex : 240 (20.92%)
+Fat Finger : 241 (21.01%)
+Edit Distance : 205 (17.87%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 1147 (28.04%)
+Acronym : 114 ( 9.94%)
+Teencode : 219 (19.09%)
+Region : 110 ( 9.59%)
+Telex : 252 (21.97%)
+Fat Finger : 232 (20.23%)
+Edit Distance : 220 (19.18%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 1147 (28.04%)
+Acronym : 0 ( 0.00%)
+Teencode : 0 ( 0.00%)
+Region : 0 ( 0.00%)
+Telex : 1144 (99.74%)
+Fat Finger : 3 ( 0.26%)
+Edit Distance : 0 ( 0.00%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 1147 (28.04%)
+Acronym : 0 ( 0.00%)
+Teencode : 0 ( 0.00%)
+Region : 0 ( 0.00%)
+Telex : 1144 (99.74%)
+Fat Finger : 3 ( 0.26%)
+Edit Distance : 0 ( 0.00%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 1147 (28.04%)
+Acronym : 0 ( 0.00%)
+Teencode : 0 ( 0.00%)
+Region : 0 ( 0.00%)
+Telex : 1144 (99.74%)
+Fat Finger : 3 ( 0.26%)
+Edit Distance : 0 ( 0.00%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 1147 (28.04%)
+Acronym : 0 ( 0.00%)
+Teencode : 0 ( 0.00%)
+Region : 0 ( 0.00%)
+Telex : 0 ( 0.00%)
+Fat Finger : 0 ( 0.00%)
+Edit Distance : 1147 (100.00%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 1147 (28.04%)
+Acronym : 0 ( 0.00%)
+Teencode : 0 ( 0.00%)
+Region : 0 ( 0.00%)
+Telex : 1144 (99.74%)
+Fat Finger : 3 ( 0.26%)
+Edit Distance : 0 ( 0.00%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 1147 (28.04%)
+Acronym : 0 ( 0.00%)
+Teencode : 897 (78.20%)
+Region : 159 (13.86%)
+Telex : 90 ( 7.85%)
+Fat Finger : 1 ( 0.09%)
+Edit Distance : 0 ( 0.00%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 1147 (28.04%)
+Acronym : 124 (10.81%)
+Teencode : 221 (19.27%)
+Region : 105 ( 9.15%)
+Telex : 227 (19.79%)
+Fat Finger : 236 (20.58%)
+Edit Distance : 234 (20.40%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 1147 (28.04%)
+Acronym : 385 (33.57%)
+Teencode : 671 (58.50%)
+Region : 0 ( 0.00%)
+Telex : 90 ( 7.85%)
+Fat Finger : 1 ( 0.09%)
+Edit Distance : 0 ( 0.00%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 1147 (28.04%)
+Acronym : 0 ( 0.00%)
+Teencode : 0 ( 0.00%)
+Region : 0 ( 0.00%)
+Telex : 0 ( 0.00%)
+Fat Finger : 1147 (100.00%)
+Edit Distance : 0 ( 0.00%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 1147 (28.04%)
+Acronym : 0 ( 0.00%)
+Teencode : 0 ( 0.00%)
+Region : 0 ( 0.00%)
+Telex : 0 ( 0.00%)
+Fat Finger : 1147 (100.00%)
+Edit Distance : 0 ( 0.00%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 1147 (28.04%)
+Acronym : 0 ( 0.00%)
+Teencode : 0 ( 0.00%)
+Region : 0 ( 0.00%)
+Telex : 0 ( 0.00%)
+Fat Finger : 0 ( 0.00%)
+Edit Distance : 1147 (100.00%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 1147 (28.04%)
+Acronym : 0 ( 0.00%)
+Teencode : 897 (78.20%)
+Region : 159 (13.86%)
+Telex : 90 ( 7.85%)
+Fat Finger : 1 ( 0.09%)
+Edit Distance : 0 ( 0.00%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 1147 (28.04%)
+Acronym : 0 ( 0.00%)
+Teencode : 897 (78.20%)
+Region : 159 (13.86%)
+Telex : 90 ( 7.85%)
+Fat Finger : 1 ( 0.09%)
+Edit Distance : 0 ( 0.00%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 1147 (28.04%)
+Acronym : 0 ( 0.00%)
+Teencode : 0 ( 0.00%)
+Region : 0 ( 0.00%)
+Telex : 0 ( 0.00%)
+Fat Finger : 0 ( 0.00%)
+Edit Distance : 1147 (100.00%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 1147 (28.04%)
+Acronym : 0 ( 0.00%)
+Teencode : 0 ( 0.00%)
+Region : 0 ( 0.00%)
+Telex : 0 ( 0.00%)
+Fat Finger : 1147 (100.00%)
+Edit Distance : 0 ( 0.00%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 1147 (28.04%)
+Acronym : 0 ( 0.00%)
+Teencode : 0 ( 0.00%)
+Region : 0 ( 0.00%)
+Telex : 0 ( 0.00%)
+Fat Finger : 1147 (100.00%)
+Edit Distance : 0 ( 0.00%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 1147 (28.04%)
+Acronym : 0 ( 0.00%)
+Teencode : 0 ( 0.00%)
+Region : 0 ( 0.00%)
+Telex : 0 ( 0.00%)
+Fat Finger : 1147 (100.00%)
+Edit Distance : 0 ( 0.00%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 1147 (28.04%)
+Acronym : 0 ( 0.00%)
+Teencode : 0 ( 0.00%)
+Region : 0 ( 0.00%)
+Telex : 1144 (99.74%)
+Fat Finger : 3 ( 0.26%)
+Edit Distance : 0 ( 0.00%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 1147 (28.04%)
+Acronym : 0 ( 0.00%)
+Teencode : 0 ( 0.00%)
+Region : 0 ( 0.00%)
+Telex : 0 ( 0.00%)
+Fat Finger : 1147 (100.00%)
+Edit Distance : 0 ( 0.00%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 1147 (28.04%)
+Acronym : 123 (10.72%)
+Teencode : 238 (20.75%)
+Region : 123 (10.72%)
+Telex : 209 (18.22%)
+Fat Finger : 230 (20.05%)
+Edit Distance : 224 (19.53%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 1147 (28.04%)
+Acronym : 121 (10.55%)
+Teencode : 239 (20.84%)
+Region : 126 (10.99%)
+Telex : 216 (18.83%)
+Fat Finger : 204 (17.79%)
+Edit Distance : 241 (21.01%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 1147 (28.04%)
+Acronym : 121 (10.55%)
+Teencode : 214 (18.66%)
+Region : 117 (10.20%)
+Telex : 235 (20.49%)
+Fat Finger : 224 (19.53%)
+Edit Distance : 236 (20.58%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 1147 (28.04%)
+Acronym : 128 (11.16%)
+Teencode : 221 (19.27%)
+Region : 110 ( 9.59%)
+Telex : 222 (19.35%)
+Fat Finger : 212 (18.48%)
+Edit Distance : 254 (22.14%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 1147 (28.04%)
+Acronym : 128 (11.16%)
+Teencode : 221 (19.27%)
+Region : 110 ( 9.59%)
+Telex : 222 (19.35%)
+Fat Finger : 212 (18.48%)
+Edit Distance : 254 (22.14%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 1147 (28.04%)
+Acronym : 280 (24.41%)
+Teencode : 198 (17.26%)
+Region : 63 ( 5.49%)
+Telex : 211 (18.40%)
+Fat Finger : 185 (16.13%)
+Edit Distance : 210 (18.31%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 1147 (28.04%)
+Acronym : 94 ( 8.20%)
+Teencode : 122 (10.64%)
+Region : 80 ( 6.97%)
+Telex : 624 (54.40%)
+Fat Finger : 100 ( 8.72%)
+Edit Distance : 127 (11.07%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 1147 (28.04%)
+Acronym : 81 ( 7.06%)
+Teencode : 125 (10.90%)
+Region : 76 ( 6.63%)
+Telex : 139 (12.12%)
+Fat Finger : 122 (10.64%)
+Edit Distance : 604 (52.66%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 1147 (28.04%)
+Acronym : 76 ( 6.63%)
+Teencode : 145 (12.64%)
+Region : 200 (17.44%)
+Telex : 423 (36.88%)
+Fat Finger : 158 (13.78%)
+Edit Distance : 145 (12.64%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 1147 (28.04%)
+Acronym : 76 ( 6.63%)
+Teencode : 145 (12.64%)
+Region : 200 (17.44%)
+Telex : 423 (36.88%)
+Fat Finger : 158 (13.78%)
+Edit Distance : 145 (12.64%)
+--------------
+Total sentences: 204
+Total tokens: 4090
+Total error tokens: 1147 (28.04%)
+Acronym : 76 ( 6.63%)
+Teencode : 145 (12.64%)
+Region : 200 (17.44%)
+Telex : 423 (36.88%)
+Fat Finger : 158 (13.78%)
+Edit Distance : 145 (12.64%)
+--------------
+Total sentences: 100000
+Total tokens: 2880843
+Total error tokens: 1515384 (52.60%)
+Acronym : 5319 ( 0.35%)
+Teencode : 63037 ( 4.16%)
+Region : 51599 ( 3.41%)
+Telex : 651931 (43.02%)
+Fat Finger : 678011 (44.74%)
+Edit Distance : 65487 ( 4.32%)

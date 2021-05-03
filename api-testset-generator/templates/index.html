@@ -1,0 +1,40 @@
+<html>
+    <style>
+        #inp {
+            width: 500px;
+            height: 100px
+        }
+        
+    </style>
+    <body>
+        <h1>Making Testset</h1>
+
+        <form action="/error-per-sentence" method="post" enctype="multipart/form-data">
+            <label for="ac">Acronym:</label>
+            <input type="number" id="ac" name="ac" min="0"><br><br>
+
+            <label for="tc">Teencode:</label>
+            <input type="number" id="tc" name="tc" min="0"><br><br>
+
+            <label for="rg">Region:</label>
+            <input type="number" id="rg" name="rg" min="0"><br><br>
+
+            <label for="tl">Telex:</label>
+            <input type="number" id="tl" name="tl" min="0"><br><br>
+
+            <label for="ff">Fat Finger:</label>
+            <input type="number" id="ff" name="ff" min="0"><br><br>
+
+            <label for="ed">Edit Distance:</label>
+            <input type="number" id="ed" name="ed" min="0"><br><br>
+
+            <label for="inp"">Input</label><br><br>
+            <textarea id="inp"" name="inp"" placeholder="Input text"" style="height:200px; width: 90%;"></textarea><br><br>
+
+            <input type="file" name="upload_file" />
+            <input type="submit" />
+        </form>
+    </body>
+</html>
+
+
