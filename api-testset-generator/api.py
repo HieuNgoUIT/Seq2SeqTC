@@ -15,26 +15,14 @@ if __name__ == "__main__":
 
     contents = []
     count = 0
-    with open("../train.txt", 'r') as f:
+    with open("../valid.txt", 'r') as f:
         for line in f:
             contents.append(line.replace("\n",""))
-            count += 1
-            if count == 10:
-                break
     
     error_contents = generator_r.error_per_sentence(ratio, ac, tc, rg, tl, ff, ed, contents)
-    with open("../valid.json", "w") as f2:
-        for src, trg in zip(contents, error_contents):
-            result = {
-                "src": src.strip(),
-                "trg": trg.strip()
-            }
-            temp = str(result) + "\n"
-            f2.write(temp.replace("'","\""))
-    # assert len(contents) == len(error_contents)
-    # import pandas as pd 
-    # df = pd.DataFrame({'src': contents, 'trg': error_contents})
-    # df.to_csv('10train.csv')
+    with open("../valid_trg.txt", "w") as f2:
+        for ec in error_contents:
+            f2.write(ec + "\n")
 
     
     
