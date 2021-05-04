@@ -66,6 +66,6 @@ def tokenize_txt_to_csv(src_path, trg_path, output_json):
             temp = str(json_object).replace("\'","\"") + "\n"
             fp.write(temp)
 
-tokenize_txt_to_csv("valid.txt", "valid_trg.txt", "valid.json")
+tokenize_txt_to_csv("src_train.txt", "trg_train.txt", "train.json")
 
 
