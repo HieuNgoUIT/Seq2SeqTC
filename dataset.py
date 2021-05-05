@@ -35,8 +35,8 @@ class TCDataset(Dataset):
 
 def process_data_to_model_inputs(tokenizer, src_list, trg_list):
     # tokenize the inputs and labels
-    inputs = tokenizer(src_list, padding="max_length", truncation=True, max_length=128)
-    outputs = tokenizer(trg_list, padding="max_length", truncation=True, max_length=128)
+    inputs = tokenizer(src_list, padding="max_length", truncation=True, max_length=512)
+    outputs = tokenizer(trg_list, padding="max_length", truncation=True, max_length=512)
 
     result = {}
     result["input_ids"] = inputs.input_ids
@@ -66,6 +66,6 @@ def tokenize_txt_to_csv(src_path, trg_path, output_json):
             temp = str(json_object).replace("\'","\"") + "\n"
             fp.write(temp)
 
-tokenize_txt_to_csv("src_train.txt", "trg_train.txt", "train.json")
+tokenize_txt_to_csv("src_valid.txt", "trg_valid.txt", "train.json")
 
 

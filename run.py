@@ -13,7 +13,7 @@ train_data.set_format(
 #    type="torch", columns=["input_ids", "attention_mask", "decoder_input_ids", "decoder_attention_mask", "labels"],
 #)
 
-batch_size=4  # change to 16 for full training
+batch_size=1  # change to 16 for full training
 bert2bert = EncoderDecoderModel.from_encoder_decoder_pretrained('bert-base-multilingual-cased', 'bert-base-multilingual-cased') # initialize Bert2Bert from pre-trained checkpoints
 
 bert2bert.config.decoder_start_token_id = tokenizer.bos_token_id
@@ -26,10 +26,10 @@ training_args = Seq2SeqTrainingArguments(
     overwrite_output_dir=True,
     do_train=True,
     per_device_train_batch_size=batch_size,
-    num_train_epochs=2,
-    logging_steps=1000,  # set to 1000 for full training
+    num_train_epochs=1,
+    logging_steps=500,  # set to 1000 for full training
     save_steps=10000,  # set to 500 for full training
-    warmup_steps=2000,  # set to 2000 for full training
+    warmup_steps=1000,  # set to 2000 for full training
     fp16=True
 )
 
